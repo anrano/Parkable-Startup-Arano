@@ -262,6 +262,12 @@ IES El Majuelo · Curso 2025-2026
 Este proyecto es de carácter académico. Desarrollado como **Proyecto Fin de Ciclo (TFG)** del CFGS DAM. 
 
 Se prohibe totalmente la venta de este contenido en cualquier plataforma. ℗
+
+---
+
+- 📧 **Email:** [rano.ruiz.antonio@gmail.com](mailto:rano.ruiz.antonio@gmail.com)
+- 💼 **LinkedIn:** [linkedin.com/in/antonio-raño-ruiz](https://linkedin.com/in/antonio-raño-ruiz-5b217012a)
+- 🌐 **Portfolio:** [anrano.github.io](https://anrano.github.io/Portfolio/)
  
 ---
  

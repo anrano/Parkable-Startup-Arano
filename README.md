@@ -44,7 +44,7 @@ La web presenta Parkable desde el punto de vista del cliente: beneficios, cómo 
 - Totalmente **responsiva** (móvil, tablet, escritorio)
 - Animaciones de scroll reveal, marquee y orbs ambientales
   
-Para verla: abre `https://anrano.github.io/Parkable-Startup-Arano/`.
+Para verla: abre [https://anrano.github.io/Parkable-Startup-Arano/].
  
 ---
  

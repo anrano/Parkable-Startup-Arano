@@ -4,7 +4,6 @@
 <img src="https://img.shields.io/badge/Kotlin-1.9.22-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white"/>
 <img src="https://img.shields.io/badge/Android-API_26+-3DDC84?style=for-the-badge&logo=android&logoColor=white"/>
 <img src="https://img.shields.io/badge/Jetpack_Compose-2024.02-4285F4?style=for-the-badge&logo=jetpackcompose&logoColor=white"/>
-<img src="https://img.shields.io/badge/Firebase-Spark_Plan-FFCA28?style=for-the-badge&logo=firebase&logoColor=black"/>
 <img src="https://img.shields.io/badge/Google_Maps-SDK-4285F4?style=for-the-badge&logo=googlemaps&logoColor=white"/>
 <br/><br/>
  

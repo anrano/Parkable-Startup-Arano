@@ -34,7 +34,7 @@
  
 Este proyecto incluye también una **landing page** orientada al usuario final, desarrollada con HTML, CSS y JavaScript puro (sin frameworks).
  
-> 🔗 **[parkable-web/](./docs/)** — Carpeta con los 3 archivos de la web (`index.html`, `styles.css`, `main.js`, `logo.png`)
+> 🔗 **[parkable-web/](./docs/)** — Carpeta con los 4 archivos de la web (`index.html`, `styles.css`, `main.js`, `logo.png`)
  
 La web presenta Parkable desde el punto de vista del cliente: beneficios, cómo funciona, impacto ambiental, sistema de recompensas y descarga de la app. Incluye:
  

@@ -258,12 +258,16 @@ IES El Majuelo · Curso 2025-2026
  
 ## Licencia
  
-Este proyecto es de carácter académico. Desarrollado como **Proyecto Fin de Ciclo (TFG)** del CFGS DAM. Se prohibe totalmente la venta de este contenido en cualquier plataforma.
+Este proyecto es de carácter académico. Desarrollado como **Proyecto Fin de Ciclo (TFG)** del CFGS DAM. 
+
+Se prohibe totalmente la venta de este contenido en cualquier plataforma. ℗
  
 ---
  
 <div align="center">
 Hecho con 🩷 y 🌿 en Andalucía
+
+
  
 **[⬆ Volver arriba](#top)**
  

@@ -206,7 +206,7 @@ parkable/
 │   │
 │   ├── util/
 │   │   ├── RewardsCatalog.kt        # Catálogo estático de recompensas
-│   │   └── NotificationHelper.kt   # Notificaciones locales
+│   │   └── NotificationHelper.kt    # Notificaciones locales
 │   │
 │   └── viewmodel/                   # AuthVM, ListingVM, AlertVM, PointsVM, SettingsVM
 │
@@ -216,7 +216,7 @@ parkable/
 │   ├── main.js
 │   └── README.md
 │
-└── gradle.properties                # ← Pon aquí tu MAPS_API_KEY
+└── gradle.properties                # ← Introducir aquí el MAPS_API_KEY
 ```
  
 ---

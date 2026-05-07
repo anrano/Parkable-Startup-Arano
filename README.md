@@ -34,7 +34,7 @@
  
 Este proyecto incluye también una **landing page** orientada al usuario final, desarrollada con HTML, CSS y JavaScript puro (sin frameworks).
  
-> 🔗 **[parkable-web/](./parkable-web/)** — Carpeta con los 3 archivos de la web (`index.html`, `styles.css`, `main.js`)
+> 🔗 **[parkable-web/](./docs/)** — Carpeta con los 3 archivos de la web (`index.html`, `styles.css`, `main.js`, `logo.png`)
  
 La web presenta Parkable desde el punto de vista del cliente: beneficios, cómo funciona, impacto ambiental, sistema de recompensas y descarga de la app. Incluye:
  
@@ -43,7 +43,8 @@ La web presenta Parkable desde el punto de vista del cliente: beneficios, cómo 
 - Cambio de idioma **ES / EN** en caliente (sin recargar)
 - Totalmente **responsiva** (móvil, tablet, escritorio)
 - Animaciones de scroll reveal, marquee y orbs ambientales
-Para verla en local: abre `parkable-web/index.html` con Live Server en VSCode.
+  
+Para verla: abre `https://anrano.github.io/Parkable-Startup-Arano/`.
  
 ---
  

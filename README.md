@@ -42,7 +42,7 @@ La web presenta Parkable desde el punto de vista del cliente: beneficios, cómo 
 - Efecto de **cursor glow** y trail de partículas animado
 - Cambio de idioma **ES / EN** en caliente (sin recargar)
 - Totalmente **responsiva** (móvil, tablet, escritorio)
-- Animaciones de scroll reveal, marquee y orbs ambientales
+- Animaciones de scroll reveal y orbs ambientales
   
 Para verla: abre [https://anrano.github.io/Parkable-Startup-Arano/].
  

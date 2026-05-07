@@ -9,15 +9,15 @@
 <br/><br/>
 
 ```
-       ██████╗  █████╗ ██████╗ ██╗  ██╗ █████╗ ██████╗ ██╗     ███████╗
-       ██╔══██╗██╔══██╗██╔══██╗██║ ██╔╝██╔══██╗██╔══██╗██║     ██╔════╝
-       ██████╔╝███████║██████╔╝█████╔╝ ███████║██████╔╝██║     █████╗
-       ██╔═══╝ ██╔══██║██╔══██╗██╔═██╗ ██╔══██║██╔══██╗██║     ██╔══╝
-       ██║     ██║  ██║██║  ██║██║  ██╗██║  ██║██████╔╝███████╗███████╗
-       ╚═╝     ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚═════╝ ╚══════╝╚══════╝
+                                          ██████╗  █████╗ ██████╗ ██╗  ██╗ █████╗ ██████╗ ██╗     ███████╗
+                                          ██╔══██╗██╔══██╗██╔══██╗██║ ██╔╝██╔══██╗██╔══██╗██║     ██╔════╝
+                                          ██████╔╝███████║██████╔╝█████╔╝ ███████║██████╔╝██║     █████╗
+                                          ██╔═══╝ ██╔══██║██╔══██╗██╔═██╗ ██╔══██║██╔══██╗██║     ██╔══╝
+                                          ██║     ██║  ██║██║  ██║██║  ██╗██║  ██║██████╔╝███████╗███████╗
+                                          ╚═╝     ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚═════╝ ╚══════╝╚══════╝
 ```
 
-### 🅿️ Smart Parking. Shared Spaces.
+### Smart Parking. Shared Spaces.
 
 **App Android nativa para el alquiler colaborativo de plazas de garaje**  
 **y avisos de aparcamiento en la calle en tiempo real.**
@@ -32,7 +32,7 @@
 
 ---
 
-## 🌐 Página Web
+## Página Web
 
 Este proyecto incluye también una **landing page** orientada al usuario final, desarrollada con HTML, CSS y JavaScript puro (sin frameworks).
 
@@ -50,9 +50,9 @@ Para verla en local: abre `parkable-web/index.html` con Live Server en VSCode.
 
 ---
 
-## 📱 Características
+## Características
 
-### 🅿️ Sector 1 — Marketplace de plazas
+### Sector 1 — Marketplace de plazas
 
 Conecta a propietarios de garajes con conductores que buscan aparcamiento.
 
@@ -65,7 +65,7 @@ Conecta a propietarios de garajes con conductores que buscan aparcamiento.
 | **Pago** | Pasarela integrada (simulada en versión demo) |
 | **Fotos** | Almacenadas como Base64 en Firestore (sin coste adicional) |
 
-### 📍 Sector 2 — Avisos (foro de avisos en tiempo real)
+### Sector 2 — Avisos (foro de avisos en tiempo real)
 
 Foro colaborativo donde los conductores se avisan mutuamente de plazas libres en la calle.
 
@@ -98,7 +98,7 @@ Los puntos acumulados se canjean en el catálogo de recompensas:
 
 ---
 
-## 🚀 Instalación
+## Instalación
 
 ### Requisitos previos
 
@@ -139,14 +139,14 @@ Abre el proyecto en Android Studio, sincroniza Gradle y pulsa ▶ **Run**.
 
 ---
 
-## 🏗️ Arquitectura
+## Arquitectura
 
 El proyecto sigue el patrón **MVVM** con repositorios, sin Hilt (factoría manual para mayor legibilidad).
 
 ```
 ┌─────────────────────────────────────────────┐
 │              UI Layer (Compose)              │
-│  Screens · Components · Navigation · Theme  │
+│  Screens · Components · Navigation · Theme   │
 └──────────────────┬──────────────────────────┘
                    │ StateFlow / collectAsState
 ┌──────────────────▼──────────────────────────┐
@@ -155,7 +155,7 @@ El proyecto sigue el patrón **MVVM** con repositorios, sin Hilt (factoría manu
 └──────────────────┬──────────────────────────┘
                    │ suspend functions / Flow
 ┌──────────────────▼──────────────────────────┐
-│            Repository Layer                  │
+│            Repository Layer                   │
 │  AuthRepo · ListingRepo · AlertRepo · UserRepo│
 └──────────────────┬──────────────────────────┘
                    │
@@ -264,7 +264,7 @@ IES El Majuelo · Curso 2025-2026
 
 ---
 
-## 📄 Licencia
+## Licencia
 
 Este proyecto es de carácter académico. Desarrollado como **Proyecto Fin de Ciclo (TFG)** del CFGS DAM. Se prohibe totalmente la venta de este contenido en cualquier plataforma.
 

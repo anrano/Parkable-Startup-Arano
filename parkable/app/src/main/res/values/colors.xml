@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Paleta corporativa Parkable derivada del logo -->
+    <color name="parkable_blue_primary">#1A6E9E</color>
+    <color name="parkable_blue_dark">#0F4C75</color>
+    <color name="parkable_blue_light">#3498DB</color>
+    <color name="parkable_green_primary">#7CB342</color>
+    <color name="parkable_green_dark">#558B2F</color>
+    <color name="parkable_green_light">#AED581</color>
+    <color name="parkable_teal">#26A69A</color>
+
+    <color name="background_light">#F5F9FC</color>
+    <color name="background_dark">#0A1929</color>
+    <color name="surface_light">#FFFFFF</color>
+    <color name="surface_dark">#0F2438</color>
+
+    <color name="text_primary_light">#0A1929</color>
+    <color name="text_secondary_light">#5A6C7A</color>
+    <color name="text_primary_dark">#E8F1FA</color>
+    <color name="text_secondary_dark">#A8B8C5</color>
+</resources>

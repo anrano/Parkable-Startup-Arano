@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Parkable</string>
+    <string name="app_tagline">Smart Parking. Shared Spaces.</string>
+
+    <string name="language_select_title">Select your language</string>
+    <string name="language_spanish">Español</string>
+    <string name="language_english">English</string>
+    <string name="continue_action">Continue</string>
+
+    <string name="login_title">Welcome back</string>
+    <string name="login_subtitle">Sign in to continue</string>
+    <string name="register_title">Create account</string>
+    <string name="register_subtitle">Join the Parkable community</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="full_name">Full name</string>
+    <string name="login_action">Sign in</string>
+    <string name="register_action">Sign up</string>
+    <string name="no_account">No account yet? Sign up</string>
+    <string name="have_account">Already have an account? Sign in</string>
+    <string name="logout">Sign out</string>
+    <string name="error_login">Sign-in error</string>
+    <string name="error_register">Sign-up error</string>
+    <string name="error_empty_fields">Please fill in all fields</string>
+
+    <string name="nav_home">Home</string>
+    <string name="nav_marketplace">Spaces</string>
+    <string name="nav_socialdrive">Alerts</string>
+    <string name="nav_points">Points</string>
+    <string name="nav_profile">Profile</string>
+
+    <string name="home_greeting">Hi, %1$s</string>
+    <string name="home_subtitle">What would you like to do today?</string>
+    <string name="home_card_marketplace_title">Rent a parking spot</string>
+    <string name="home_card_marketplace_desc">Find spots by hour, day or month</string>
+    <string name="home_card_socialdrive_title">Leaving your spot?</string>
+    <string name="home_card_socialdrive_desc">Notify other drivers and earn points</string>
+    <string name="home_card_publish_title">Publish my spot</string>
+    <string name="home_card_publish_desc">Earn money from your empty garage</string>
+    <string name="home_points_balance">Your balance</string>
+    <string name="home_points_unit">points</string>
+
+    <string name="marketplace_title">Available spots</string>
+    <string name="marketplace_search_hint">Search by city or street</string>
+    <string name="marketplace_filter_hour">Hourly</string>
+    <string name="marketplace_filter_day">Daily</string>
+    <string name="marketplace_filter_week">Weekly</string>
+    <string name="marketplace_filter_month">Monthly</string>
+    <string name="marketplace_view_map">Map</string>
+    <string name="marketplace_view_list">List</string>
+    <string name="marketplace_empty">No listings yet. Be the first!</string>
+    <string name="marketplace_publish_fab">Publish spot</string>
+
+    <string name="detail_owner">Owner</string>
+    <string name="detail_description">Description</string>
+    <string name="detail_location">Location</string>
+    <string name="detail_price_per_hour">€ / hour</string>
+    <string name="detail_price_per_day">€ / day</string>
+    <string name="detail_price_per_week">€ / week</string>
+    <string name="detail_price_per_month">€ / month</string>
+    <string name="detail_book_now">Book and pay</string>
+    <string name="detail_select_dates">Select dates</string>
+    <string name="detail_total">Total</string>
+
+    <string name="publish_title">Publish spot</string>
+    <string name="publish_step_photos">Photos (minimum 1, maximum 5)</string>
+    <string name="publish_step_basics">Basics</string>
+    <string name="publish_step_location">Location</string>
+    <string name="publish_step_pricing">Pricing</string>
+    <string name="publish_add_photo">Add photo</string>
+    <string name="publish_photos_count">%1$d / %2$d photos</string>
+    <string name="publish_listing_title">Listing title</string>
+    <string name="publish_listing_desc">Description</string>
+    <string name="publish_pick_on_map">Pick on map</string>
+    <string name="publish_save">Publish</string>
+    <string name="publish_min_photos_error">Add at least 1 photo</string>
+    <string name="publish_success">Listing published!</string>
+
+    <string name="payment_title">Payment</string>
+    <string name="payment_card_number">Card number</string>
+    <string name="payment_card_holder">Cardholder</string>
+    <string name="payment_expiry">MM/YY</string>
+    <string name="payment_cvv">CVV</string>
+    <string name="payment_pay">Pay €%1$s</string>
+    <string name="payment_success">Payment successful</string>
+    <string name="payment_simulation_notice">Simulated payment (demo environment)</string>
+
+    <string name="social_title">Live alerts</string>
+    <string name="social_subtitle">Street spots about to free up</string>
+    <string name="social_new_alert">New alert</string>
+    <string name="social_alert_address">Address or reference</string>
+    <string name="social_alert_time">Leaving in (minutes)</string>
+    <string name="social_alert_notes">Notes (optional)</string>
+    <string name="social_alert_publish">Publish alert</string>
+    <string name="social_alert_taken">Claim spot</string>
+    <string name="social_alert_confirm">Confirm handover</string>
+    <string name="social_alert_arrived">I parked</string>
+    <string name="social_alert_pending">Waiting for confirmation…</string>
+    <string name="social_alert_completed">Transaction confirmed</string>
+    <string name="social_minutes_short">min</string>
+    <string name="social_distance_short">km</string>
+    <string name="social_offered_by">Offered by %1$s</string>
+    <string name="social_empty">No alerts nearby. Create the first one!</string>
+    <string name="social_tab_active">Active</string>
+    <string name="social_tab_completed">Completed</string>
+    <string name="social_empty_completed">No completed alerts yet.</string>
+
+    <string name="points_title">My points</string>
+    <string name="points_balance_label">Current balance</string>
+    <string name="points_history">History</string>
+    <string name="points_rewards">Rewards catalog</string>
+    <string name="points_earn_provide">offer spot</string>
+    <string name="points_earn_park">park</string>
+    <string name="points_redeem">Redeem</string>
+    <string name="points_insufficient">Not enough points</string>
+    <string name="points_redeemed_ok">Reward redeemed!</string>
+    <string name="points_redeem_dialog_title">Redeem reward</string>
+    <string name="points_redeem_email_label">Enter your email to receive the coupon</string>
+    <string name="points_redeem_send">Send coupon</string>
+    <string name="points_coupon_sent">Coupon sent to %1$s!</string>
+    <string name="booking_already_taken">This spot has already been booked</string>
+    <string name="reward_car_wash">Car wash</string>
+    <string name="reward_car_wash_desc">Full wash at partner gas stations</string>
+    <string name="reward_fuel_discount">€5 fuel discount</string>
+    <string name="reward_fuel_discount_desc">Valid on refuels over €30</string>
+    <string name="reward_premium_week">1 week Parkable Premium</string>
+    <string name="reward_premium_week_desc">Priority bookings, no fees</string>
+    <string name="reward_coffee">Free coffee</string>
+    <string name="reward_coffee_desc">At service-area cafes</string>
+
+    <string name="profile_title">My profile</string>
+    <string name="profile_my_listings">My listings</string>
+    <string name="profile_my_bookings">My bookings</string>
+    <string name="profile_my_alerts">My alerts</string>
+    <string name="profile_edit">Edit profile</string>
+    <string name="profile_member_since">Member since %1$s</string>
+
+    <string name="settings_title">Settings</string>
+    <string name="settings_language">Language</string>
+    <string name="settings_theme">Theme</string>
+    <string name="settings_theme_system">System</string>
+    <string name="settings_theme_light">Light</string>
+    <string name="settings_theme_dark">Dark</string>
+    <string name="settings_about">About</string>
+    <string name="settings_version">Version %1$s</string>
+    <string name="about_dialog_title">About Parkable</string>
+    <string name="about_developed_by">Developed by</string>
+    <string name="about_developer_name">Antonio Raño Ruiz</string>
+    <string name="about_tfg">Final Degree Project</string>
+    <string name="about_center">IES Majuelo · 2026</string>
+    <string name="about_close">Close</string>
+
+    <string name="cancel">Cancel</string>
+    <string name="confirm">Confirm</string>
+    <string name="save">Save</string>
+    <string name="back">Back</string>
+    <string name="loading">Loading…</string>
+    <string name="retry">Retry</string>
+</resources>

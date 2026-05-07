@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Parkable</string>
+    <string name="app_tagline">Smart Parking. Shared Spaces.</string>
+
+    <!-- Selector de idioma -->
+    <string name="language_select_title">Selecciona tu idioma</string>
+    <string name="language_spanish">Español</string>
+    <string name="language_english">English</string>
+    <string name="continue_action">Continuar</string>
+
+    <!-- Auth -->
+    <string name="login_title">Bienvenido de nuevo</string>
+    <string name="login_subtitle">Inicia sesión para continuar</string>
+    <string name="register_title">Crear cuenta</string>
+    <string name="register_subtitle">Únete a la comunidad Parkable</string>
+    <string name="email">Correo electrónico</string>
+    <string name="password">Contraseña</string>
+    <string name="full_name">Nombre completo</string>
+    <string name="login_action">Iniciar sesión</string>
+    <string name="register_action">Registrarme</string>
+    <string name="no_account">¿No tienes cuenta? Regístrate</string>
+    <string name="have_account">¿Ya tienes cuenta? Inicia sesión</string>
+    <string name="logout">Cerrar sesión</string>
+    <string name="error_login">Error al iniciar sesión</string>
+    <string name="error_register">Error al registrarse</string>
+    <string name="error_empty_fields">Rellena todos los campos</string>
+
+    <!-- Bottom navigation -->
+    <string name="nav_home">Inicio</string>
+    <string name="nav_marketplace">Plazas</string>
+    <string name="nav_socialdrive">Avisos</string>
+    <string name="nav_points">Puntos</string>
+    <string name="nav_profile">Perfil</string>
+
+    <!-- Home -->
+    <string name="home_greeting">Hola, %1$s</string>
+    <string name="home_subtitle">¿Qué quieres hacer hoy?</string>
+    <string name="home_card_marketplace_title">Alquilar una plaza</string>
+    <string name="home_card_marketplace_desc">Encuentra plazas por horas, días o meses</string>
+    <string name="home_card_socialdrive_title">¿Vas a salir?</string>
+    <string name="home_card_socialdrive_desc">Avisa a otros conductores y gana puntos</string>
+    <string name="home_card_publish_title">Publicar mi plaza</string>
+    <string name="home_card_publish_desc">Genera ingresos con tu garaje vacío</string>
+    <string name="home_points_balance">Tu saldo</string>
+    <string name="home_points_unit">puntos</string>
+
+    <!-- Marketplace -->
+    <string name="marketplace_title">Plazas disponibles</string>
+    <string name="marketplace_search_hint">Buscar por ciudad o calle</string>
+    <string name="marketplace_filter_hour">Por horas</string>
+    <string name="marketplace_filter_day">Por días</string>
+    <string name="marketplace_filter_week">Por semanas</string>
+    <string name="marketplace_filter_month">Por meses</string>
+    <string name="marketplace_view_map">Mapa</string>
+    <string name="marketplace_view_list">Lista</string>
+    <string name="marketplace_empty">No hay anuncios. ¡Sé el primero!</string>
+    <string name="marketplace_publish_fab">Publicar plaza</string>
+
+    <!-- Listing detail -->
+    <string name="detail_owner">Propietario</string>
+    <string name="detail_description">Descripción</string>
+    <string name="detail_location">Ubicación</string>
+    <string name="detail_price_per_hour">€ / hora</string>
+    <string name="detail_price_per_day">€ / día</string>
+    <string name="detail_price_per_week">€ / semana</string>
+    <string name="detail_price_per_month">€ / mes</string>
+    <string name="detail_book_now">Reservar y pagar</string>
+    <string name="detail_select_dates">Selecciona fechas</string>
+    <string name="detail_total">Total</string>
+
+    <!-- Publish listing -->
+    <string name="publish_title">Publicar plaza</string>
+    <string name="publish_step_photos">Fotos (mínimo 1, máximo 5)</string>
+    <string name="publish_step_basics">Datos básicos</string>
+    <string name="publish_step_location">Ubicación</string>
+    <string name="publish_step_pricing">Precios</string>
+    <string name="publish_add_photo">Añadir foto</string>
+    <string name="publish_photos_count">%1$d / %2$d fotos</string>
+    <string name="publish_listing_title">Título del anuncio</string>
+    <string name="publish_listing_desc">Descripción</string>
+    <string name="publish_pick_on_map">Seleccionar en el mapa</string>
+    <string name="publish_save">Publicar</string>
+    <string name="publish_min_photos_error">Añade al menos 1 foto</string>
+    <string name="publish_success">¡Anuncio publicado!</string>
+
+    <!-- Booking & payment -->
+    <string name="payment_title">Pago</string>
+    <string name="payment_card_number">Número de tarjeta</string>
+    <string name="payment_card_holder">Titular</string>
+    <string name="payment_expiry">MM/AA</string>
+    <string name="payment_cvv">CVV</string>
+    <string name="payment_pay">Pagar %1$s €</string>
+    <string name="payment_success">Pago realizado con éxito</string>
+    <string name="payment_simulation_notice">Pago simulado (entorno de demostración)</string>
+
+    <!-- SocialDrive (foro de avisos) -->
+    <string name="social_title">Avisos en directo</string>
+    <string name="social_subtitle">Plazas en la calle que se quedan libres</string>
+    <string name="social_new_alert">Nuevo aviso</string>
+    <string name="social_alert_address">Dirección o referencia</string>
+    <string name="social_alert_time">Salgo en (minutos)</string>
+    <string name="social_alert_notes">Notas (opcional)</string>
+    <string name="social_alert_publish">Publicar aviso</string>
+    <string name="social_alert_taken">Reclamar plaza</string>
+    <string name="social_alert_confirm">Confirmar entrega</string>
+    <string name="social_alert_arrived">He aparcado</string>
+    <string name="social_alert_pending">Esperando confirmación…</string>
+    <string name="social_alert_completed">Transacción confirmada</string>
+    <string name="social_minutes_short">min</string>
+    <string name="social_distance_short">km</string>
+    <string name="social_offered_by">Ofrecido por %1$s</string>
+    <string name="social_empty">No hay avisos cerca. ¡Crea el primero!</string>
+    <string name="social_tab_active">Activos</string>
+    <string name="social_tab_completed">Completados</string>
+    <string name="social_empty_completed">No hay avisos completados aún.</string>
+
+    <!-- Points -->
+    <string name="points_title">Mis puntos</string>
+    <string name="points_balance_label">Saldo actual</string>
+    <string name="points_history">Historial</string>
+    <string name="points_rewards">Catálogo de recompensas</string>
+    <string name="points_earn_provide">ofrecer plaza</string>
+    <string name="points_earn_park">aparcar</string>
+    <string name="points_redeem">Canjear</string>
+    <string name="points_insufficient">Puntos insuficientes</string>
+    <string name="points_redeemed_ok">¡Recompensa canjeada!</string>
+    <string name="points_redeem_dialog_title">Canjear recompensa</string>
+    <string name="points_redeem_email_label">Introduce tu correo para recibir el cupón</string>
+    <string name="points_redeem_send">Enviar cupón</string>
+    <string name="points_coupon_sent">¡Cupón enviado a %1$s!</string>
+    <string name="booking_already_taken">Esta plaza ya ha sido reservada por otro usuario</string>
+    <string name="reward_car_wash">Lavado de coche</string>
+    <string name="reward_car_wash_desc">Lavado completo en gasolineras adheridas</string>
+    <string name="reward_fuel_discount">5 € descuento en carburante</string>
+    <string name="reward_fuel_discount_desc">Aplicable en repostajes superiores a 30 €</string>
+    <string name="reward_premium_week">1 semana Parkable Premium</string>
+    <string name="reward_premium_week_desc">Reservas prioritarias y sin comisiones</string>
+    <string name="reward_coffee">Café gratis</string>
+    <string name="reward_coffee_desc">En cafeterías de área de servicio</string>
+
+    <!-- Profile -->
+    <string name="profile_title">Mi perfil</string>
+    <string name="profile_my_listings">Mis plazas publicadas</string>
+    <string name="profile_my_bookings">Mis reservas</string>
+    <string name="profile_my_alerts">Mis avisos</string>
+    <string name="profile_edit">Editar perfil</string>
+    <string name="profile_member_since">Miembro desde %1$s</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Ajustes</string>
+    <string name="settings_language">Idioma</string>
+    <string name="settings_theme">Tema</string>
+    <string name="settings_theme_system">Sistema</string>
+    <string name="settings_theme_light">Claro</string>
+    <string name="settings_theme_dark">Oscuro</string>
+    <string name="settings_about">Acerca de</string>
+    <string name="settings_version">Versión %1$s</string>
+    <string name="about_dialog_title">Acerca de Parkable</string>
+    <string name="about_developed_by">Desarrollado por</string>
+    <string name="about_developer_name">Antonio Raño Ruiz</string>
+    <string name="about_tfg">Trabajo de Fin de Grado</string>
+    <string name="about_center">IES Majuelo · 2026</string>
+    <string name="about_close">Cerrar</string>
+
+    <!-- Common -->
+    <string name="cancel">Cancelar</string>
+    <string name="confirm">Confirmar</string>
+    <string name="save">Guardar</string>
+    <string name="back">Atrás</string>
+    <string name="loading">Cargando…</string>
+    <string name="retry">Reintentar</string>
+</resources>

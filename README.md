@@ -144,26 +144,26 @@ Abre el proyecto en Android Studio, sincroniza Gradle y pulsa ▶ **Run**.
 El proyecto sigue el patrón **MVVM** con repositorios, sin Hilt (factoría manual para mayor legibilidad).
 
 ```
-┌─────────────────────────────────────────────┐
+┌──────────────────────────────────────────────┐
 │              UI Layer (Compose)              │
 │  Screens · Components · Navigation · Theme   │
-└──────────────────┬──────────────────────────┘
+└──────────────────┬───────────────────────────┘
                    │ StateFlow / collectAsState
-┌──────────────────▼──────────────────────────┐
+┌──────────────────▼───────────────────────────┐
 │             ViewModel Layer                  │
 │  AuthVM · ListingVM · AlertVM · PointsVM     │
-└──────────────────┬──────────────────────────┘
+└──────────────────┬───────────────────────────┘
                    │ suspend functions / Flow
-┌──────────────────▼──────────────────────────┐
+┌──────────────────▼────────────────────────────┐
 │            Repository Layer                   │
 │  AuthRepo · ListingRepo · AlertRepo · UserRepo│
-└──────────────────┬──────────────────────────┘
+└──────────────────┬────────────────────────────┘
                    │
-┌──────────────────▼──────────────────────────┐
+┌──────────────────▼───────────────────────────┐
 │           Backend (Firebase)                 │
 │  Authentication · Firestore · DataStore      │
 │  Google Maps · Nominatim (geocoding)         │
-└─────────────────────────────────────────────┘
+└──────────────────────────────────────────────┘
 ```
 
 ### Base de datos (Firestore)

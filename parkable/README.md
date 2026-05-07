@@ -13,7 +13,7 @@ por horas/días/semanas/meses) **+** un foro tipo SocialDrive con sistema de pun
 - **DataStore Preferences** para persistir idioma y tema.
 - **Navigation Compose** con bottom bar de 5 secciones.
 - Arquitectura **MVVM** con repositorios y factoría manual de ViewModels (sin Hilt).
-- `minSdk = 26`, `targetSdk = 34`, AGP 8.2.2, Kotlin 1.9.22.
+- `minSdk = 26`, `targetSdk = 34`, AGP 8.2.2, Kotlin 1.9.22. 
 
 ## Estructura del proyecto
 

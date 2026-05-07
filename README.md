@@ -9,12 +9,12 @@
 <br/><br/>
 
 ```
- ██████╗  █████╗ ██████╗ ██╗  ██╗ █████╗ ██████╗ ██╗     ███████╗
- ██╔══██╗██╔══██╗██╔══██╗██║ ██╔╝██╔══██╗██╔══██╗██║     ██╔════╝
- ██████╔╝███████║██████╔╝█████╔╝ ███████║██████╔╝██║     █████╗
- ██╔═══╝ ██╔══██║██╔══██╗██╔═██╗ ██╔══██║██╔══██╗██║     ██╔══╝
- ██║     ██║  ██║██║  ██║██║  ██╗██║  ██║██████╔╝███████╗███████╗
- ╚═╝     ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚═════╝ ╚══════╝╚══════╝
+       ██████╗  █████╗ ██████╗ ██╗  ██╗ █████╗ ██████╗ ██╗     ███████╗
+       ██╔══██╗██╔══██╗██╔══██╗██║ ██╔╝██╔══██╗██╔══██╗██║     ██╔════╝
+       ██████╔╝███████║██████╔╝█████╔╝ ███████║██████╔╝██║     █████╗
+       ██╔═══╝ ██╔══██║██╔══██╗██╔═██╗ ██╔══██║██╔══██╗██║     ██╔══╝
+       ██║     ██║  ██║██║  ██║██║  ██╗██║  ██║██████╔╝███████╗███████╗
+       ╚═╝     ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚═════╝ ╚══════╝╚══════╝
 ```
 
 ### 🅿️ Smart Parking. Shared Spaces.
@@ -65,7 +65,7 @@ Conecta a propietarios de garajes con conductores que buscan aparcamiento.
 | **Pago** | Pasarela integrada (simulada en versión demo) |
 | **Fotos** | Almacenadas como Base64 en Firestore (sin coste adicional) |
 
-### 📍 Sector 2 — SocialDrive (foro de avisos en tiempo real)
+### 📍 Sector 2 — Avisos (foro de avisos en tiempo real)
 
 Foro colaborativo donde los conductores se avisan mutuamente de plazas libres en la calle.
 
@@ -77,7 +77,7 @@ Foro colaborativo donde los conductores se avisan mutuamente de plazas libres en
 | **Puntos automáticos** | +100 al que ofrece · +25 al que aparca |
 | **Tiempo real** | Firestore snapshot listeners — sin polling |
 
-### 🏆 Sistema de Gamificación
+### Sistema de Puntos
 
 Los puntos acumulados se canjean en el catálogo de recompensas:
 
@@ -88,13 +88,13 @@ Los puntos acumulados se canjean en el catálogo de recompensas:
 | ⛽ Descuento en gasolina (5 €) | 750 pts |
 | ⭐ Semana Parkable Premium | 1500 pts |
 
-### 🌍 Otras funcionalidades
+### Otras funcionalidades
 
-- 🌿 **Registro de huella de carbono** — CO₂ ahorrado por cada reserva
-- 🌐 **Bilingüe ES / EN** — Cambio en caliente con `attachBaseContext` y `recreate()`
-- 🔔 **Notificaciones locales** — Confirmación de reserva y avisos
-- 🔍 **Autocompletado de direcciones** — Vía Nominatim (OpenStreetMap, sin coste)
-- 🌙 **Modo claro / oscuro / sistema** — Persistido en DataStore
+- **Registro de huella de carbono** — CO₂ ahorrado por cada reserva
+- **Bilingüe ES / EN** — Cambio en caliente con `attachBaseContext` y `recreate()`
+- **Notificaciones locales** — Confirmación de reserva y avisos
+- **Autocompletado de direcciones** — Vía Nominatim (OpenStreetMap, sin coste)
+- **Modo claro / oscuro / sistema** — Persistido en DataStore
 
 ---
 
@@ -178,7 +178,7 @@ El proyecto sigue el patrón **MVVM** con repositorios, sin Hilt (factoría manu
 
 ---
 
-## 📂 Estructura del proyecto
+## Estructura del proyecto
 
 ```
 parkable/
@@ -216,7 +216,7 @@ parkable/
 │   │
 │   └── viewmodel/                   # AuthVM, ListingVM, AlertVM, PointsVM, SettingsVM
 │
-├── parkable-web/                    # 🌐 Landing page (HTML + CSS + JS)
+├── parkable-web/                    # Landing page (HTML + CSS + JS)
 │   ├── index.html
 │   ├── styles.css
 │   ├── main.js
@@ -227,7 +227,7 @@ parkable/
 
 ---
 
-## 🛠️ Stack tecnológico
+## Stack tecnológico
 
 | Categoría | Tecnología | Versión |
 |-----------|------------|---------|
@@ -249,23 +249,10 @@ parkable/
 
 Parkable está diseñado con un propósito: **reducir las emisiones de CO₂** generadas por la búsqueda de aparcamiento en las ciudades.
 
-- 🚗 El conductor urbano medio pierde **+100 horas/año** buscando donde aparcar
-- 🌫️ Eso genera **~18 kg de CO₂** innecesarios por conductor al año
-- ✅ Con Parkable, el tiempo de búsqueda cae a **menos de 2 minutos**
-- 🌳 El ahorro equivale a lo que absorbe **1 árbol adulto al mes**
-
----
-
-## 🔮 Roadmap
-
-- [ ] Pasarela de pago real con Stripe
-- [ ] Mensajería interna entre conductor y propietario
-- [ ] Filtros geográficos por radio con GeoFirestore
-- [ ] Sistema de reseñas y reputación
-- [ ] Reservas con calendario (bloqueo de fechas)
-- [ ] Tests unitarios (JUnit + Coroutines Test)
-- [ ] Reglas de seguridad Firestore para producción
-- [ ] Publicación en Google Play Store
+- El conductor urbano medio pierde **+100 horas/año** buscando donde aparcar
+- Eso genera **~18 kg de CO₂** innecesarios por conductor al año
+- Con Parkable, el tiempo de búsqueda cae a **menos de 2 minutos**
+- El ahorro equivale a lo que absorbe **1 árbol adulto al mes**
 
 ---
 
@@ -279,13 +266,13 @@ IES El Majuelo · Curso 2025-2026
 
 ## 📄 Licencia
 
-Este proyecto es de carácter académico. Desarrollado como **Proyecto Fin de Ciclo (TFG)** del CFGS DAM.
+Este proyecto es de carácter académico. Desarrollado como **Proyecto Fin de Ciclo (TFG)** del CFGS DAM. Se prohibe totalmente la venta de este contenido en cualquier plataforma.
 
 ---
 
 <div align="center">
 
-Hecho con 💙 y 🌿 en Andalucía
+Hecho con 🩷 y 🌿 en Andalucía
 
 **[⬆ Volver arriba](#)**
 

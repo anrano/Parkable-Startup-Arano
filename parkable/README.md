@@ -88,7 +88,7 @@ posterior desde Ajustes recrea la Activity y todos los textos cambian al instant
 - Las fotos se suben a **Firebase Storage**; los metadatos viven en Firestore.
 - Reserva con pasarela de pago **simulada** (deliberadamente etiquetada en pantalla).
 
-### Sector 2 · Foro SocialDrive
+### Sector 2 · Foro de avisos
 - Feed en directo de avisos (Firestore con snapshot listeners → tiempo real).
 - Cualquier conductor puede publicar uno indicando ubicación (mapa) y minutos para irse.
 - Otro conductor lo "reclama"; ambos confirman cuando se completa la entrega.
